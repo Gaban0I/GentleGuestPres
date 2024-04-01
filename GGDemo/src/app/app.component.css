@@ -1,0 +1,18 @@
+#globalView {
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  overflow-y: hidden;
+}
+
+#appContent {
+  width: 100%;
+}
+
+#pageTitle {
+  display: flex;
+  flex-flow: row;
+  font-size: 25px;
+  width: 100%;
+  padding: 20px;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.cdnfonts.com/css/caviar-dreams");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.GG {
+  font-family: "Caviar Dreams", sans-serif;
+  font-weight: 500;
+}
