@@ -7,12 +7,5 @@
 
 #appContent {
   width: 100%;
-}
-
-#pageTitle {
-  display: flex;
-  flex-flow: row;
-  font-size: 25px;
   width: 100%;
-  padding: 20px;
 }

@@ -16,3 +16,16 @@ body {
   font-family: "Caviar Dreams", sans-serif;
   font-weight: 500;
 }
+
+.GGbandeau {
+  position: sticky;
+  top: 70px;
+  font-size: 25px;
+  border-bottom: 2px solid #d8d8d8;
+  border-top: 2px solid #d8d8d8;
+  padding: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}

@@ -3,9 +3,10 @@
   height: 100%;
   overflow-y: auto;
 }
+
 .pageTitle {
   position: sticky;
-  top: 0;
+  top: 70px;
   font-size: 25px;
   border-bottom: 2px solid #d8d8d8;
   border-top: 2px solid #d8d8d8;
@@ -34,4 +35,36 @@ article {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#metierTitle {
+  font-size: 25px;
+  margin: 10px;
+  width: 600px;
+  border: solid 2px black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #156082;
+}
+
+#sucetteContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#sucetteContainer > a {
+  flex-basis: 14%;
+}
+#sucetteContainer > a:hover {
+  cursor: pointer;
+}
+
+#sucetteContainer > a > img {
+  height: 200px;
+  margin: 10px;
 }
