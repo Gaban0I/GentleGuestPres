@@ -17,7 +17,7 @@
 
 #linkContainer {
   width: 100%;
-  padding: 50px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -43,5 +43,6 @@ a:hover {
 a.active {
   color: white;
   background-color: #156082;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }

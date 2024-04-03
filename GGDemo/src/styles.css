@@ -29,3 +29,26 @@ body {
   flex-direction: row;
   background-color: white;
 }
+
+.container {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.pageContent2 {
+  display: flex;
+  flex-flow: row;
+  background-color: #f2f2f2;
+  padding: 25px;
+  padding-bottom: 100px;
+}
+
+.pageContent2 > img {
+  height: 200px;
+  margin: 0px 70px 0px 50px;
+}
+
+.pageContent2 > ul > li {
+  margin-bottom: 20px;
+}

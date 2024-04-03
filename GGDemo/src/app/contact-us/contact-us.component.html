@@ -1,1 +1,198 @@
-<p>contact-us works!</p>
+<div class="container">
+  <app-titre-bandeau></app-titre-bandeau>
+  <div class="GGbandeau">Un café, un renseignement ? Nous contacter</div>
+  <div id="formPageContainer">
+    <form (ngSubmit)="sendEmail()">
+      <div class="form-group">
+        <label for="société">Nom de la société:</label>
+        <input
+          class="input"
+          type="text"
+          id="société"
+          [(ngModel)]="societe"
+          name="société"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="nom">Nom:</label>
+        <input
+          class="input"
+          type="text"
+          id="nom"
+          [(ngModel)]="nom"
+          name="nom"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="prénom">Prénom:</label>
+        <input
+          class="input"
+          type="text"
+          id="prénom"
+          [(ngModel)]="prenom"
+          name="prénom"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="fonction">Fonction:</label>
+        <input
+          class="input"
+          type="text"
+          id="fonction"
+          [(ngModel)]="fonction"
+          name="fonction"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="mail">Email:</label>
+        <input
+          class="input"
+          type="email"
+          id="mail"
+          [(ngModel)]="mail"
+          name="mail"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="telephone">Téléphone:</label>
+        <input
+          class="input"
+          type="tel"
+          id="telephone"
+          [(ngModel)]="telephone"
+          name="telephone"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="adresse">Adresse:</label>
+        <input
+          class="input"
+          type="text"
+          id="adresse"
+          [(ngModel)]="adresse"
+          name="adresse"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="type">Type de société(choix multiples): </label>
+        <div class="checkbox-group">
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type1', $event)"
+            />
+            Hôtel</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Restaurant</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Café-Bar</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Camping</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Magasin</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Artisan</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Producteur-Eleveur</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Office de tourisme</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Agence de voyages</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Réceptif</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Mairie</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Média-Presse</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Club sportif</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              (change)="updateSelectedTypes('type2', $event)"
+            />
+            Transport de personnes</label
+          >
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="renseignement">Demande de renseignements:</label>
+        <textarea
+          id="renseignement"
+          [(ngModel)]="renseignement"
+          name="renseignement"
+          required
+        ></textarea>
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</div>
