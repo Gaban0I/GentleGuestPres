@@ -44,7 +44,12 @@ body {
 
 .pageContent2 > div > img {
   height: 200px;
-  margin: 0px 70px 0px 50px;
+  margin: 0px 50px;
+}
+.pageContent2 > div {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
 .pageContent2 > ul > li {
