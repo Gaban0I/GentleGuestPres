@@ -25,8 +25,6 @@ body {
   border-top: 2px solid #d8d8d8;
   padding: 20px;
   font-weight: bold;
-  display: flex;
-  flex-direction: row;
   background-color: white;
 }
 
@@ -44,11 +42,26 @@ body {
   padding-bottom: 100px;
 }
 
-.pageContent2 > img {
+.pageContent2 > div > img {
   height: 200px;
   margin: 0px 70px 0px 50px;
 }
 
 .pageContent2 > ul > li {
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 695px) {
+  .GGbandeau {
+    top: 100px;
+  }
+
+  .pageContent2 {
+    flex-flow: column;
+  }
+}
+@media only screen and (max-width: 367px) {
+  .GGbandeau {
+    top: 130px;
+  }
 }

@@ -1,5 +1,5 @@
 #bandeauContainer {
-  padding-right: 300px;
+  /* padding-right: 300px; */
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -21,6 +21,7 @@
 
 p {
   font-size: 25px;
+  text-align: center;
 }
 
 a {
