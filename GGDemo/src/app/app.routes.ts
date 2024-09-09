@@ -10,13 +10,14 @@ import { ArtisanComponent } from './pages/artisan/artisan.component';
 import { ProducteurEleveurComponent } from './pages/producteur-eleveur/producteur-eleveur.component';
 import { OfficeDeTourismeComponent } from './pages/office-de-tourisme/office-de-tourisme.component';
 import { AgenceDeVoyagesComponent } from './pages/agence-de-voyages/agence-de-voyages.component';
-import { ReceptifComponent } from './receptif/receptif.component';
+import { ReceptifComponent } from './pages/receptif/receptif.component';
 import { MairieComponent } from './pages/mairie/mairie.component';
 import { MediaPresseComponent } from './pages/media-presse/media-presse.component';
 import { ClubSportifComponent } from './pages/club-sportif/club-sportif.component';
 import { TransportDePersonnesComponent } from './pages/transport-de-personnes/transport-de-personnes.component';
 
 export const routes: Routes = [
+
   { path: 'accueil', component: HomeComponentComponent },
   { path: 'hotel', component: HotelComponent },
   { path: 'restaurant', component: RestaurantComponent },

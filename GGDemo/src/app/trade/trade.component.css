@@ -1,0 +1,47 @@
+/* Style pour les éléments div */
+div {
+  border-radius: 6px; /* Arrondit les coins de la div */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+  overflow: hidden; /* Cache tout contenu qui dépasse de la div */
+}
+
+/* Style pour les boutons */
+button {
+  display: flex; /* Utilise un affichage flexible */
+  align-items: center; /* Centre verticalement les éléments dans le bouton */
+  gap: 0.5rem; /* Espace entre les éléments du bouton */
+  padding: 0.35rem 0.5rem; /* Ajoute un espacement interne */
+  background-color: #285680; /* Couleur de fond du bouton */
+  color: #24ae5f; /* Couleur du texte du bouton */
+  border: none; /* Supprime la bordure par défaut */
+  font: inherit; /* Hérite la police du parent */
+  cursor: pointer; /* Change le curseur en main au survol */
+  width: 100%; /* Occupe toute la largeur disponible */
+  min-width: 10rem; /* Largeur minimale du bouton */
+  text-align: left; /* Aligne le texte à gauche */
+}
+
+/* Styles pour les états de survol, actif et la classe .active du bouton */
+button:hover,
+button:active,
+.active {
+  background-color: #24ae5f; /* Change la couleur de fond */
+  color: #285680; /* Change la couleur du texte */
+}
+
+/* Style pour les images */
+img {
+  width: 2rem; /* Fixe la largeur de l'image */
+  padding: 5px;
+  object-fit: contain; /* Ajuste l'image dans son conteneur sans la déformer */
+  border-radius: 50%; /* Rend l'image circulaire */
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); /* Ajoute une ombre à l'image */
+}
+
+/* Style pour les éléments span */
+span {
+  margin: 0; /* Supprime les marges */
+  padding: 0; /* Supprime les espacements internes */
+  font-size: 0.8rem; /* Définit la taille de la police */
+  font-weight: normal; /* Définit le poids de la police comme normal */
+}
