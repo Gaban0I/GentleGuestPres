@@ -12,7 +12,7 @@ button {
   gap: 0.5rem; /* Espace entre les éléments du bouton */
   padding: 0.35rem 0.5rem; /* Ajoute un espacement interne */
   background-color: #285680; /* Couleur de fond du bouton */
-  color: #24ae5f; /* Couleur du texte du bouton */
+  color: #DEDEDE; /* Couleur du texte du bouton */
   border: none; /* Supprime la bordure par défaut */
   font: inherit; /* Hérite la police du parent */
   cursor: pointer; /* Change le curseur en main au survol */
@@ -26,7 +26,7 @@ button:hover,
 button:active,
 .active {
   background-color: #24ae5f; /* Change la couleur de fond */
-  color: #285680; /* Change la couleur du texte */
+  color: #244f76; /* Change la couleur du texte */
 }
 
 /* Style pour les images */
