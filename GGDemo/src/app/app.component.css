@@ -1,4 +1,4 @@
-/* Styles pour l'élément principal */
+
 main {
   width: 90%; /* Largeur de 90% de son conteneur */
   max-width: 50rem; /* Largeur maximale de 50rem */
@@ -6,8 +6,11 @@ main {
   display: grid; /* Utilise un affichage en grille */
   grid-auto-flow: row; /* Les éléments sont placés automatiquement en lignes */
   gap: 2rem; /* Espace de 2rem entre les éléments de la grille */
+  min-height: 100vh;
+  /*align-items: center;
+  justify-content: center;*/
 }
-
+/* Styles pour l'élément principal */
 /* Styles pour l'élément avec l'ID "trade" */
 #trade {
   grid-auto-flow: row;
@@ -18,14 +21,24 @@ main {
   flex-flow: column;
   gap: 0.5rem; /* Espace de 0.5rem entre les éléments flex */
   overflow: auto; /* Ajoute une barre de défilement si le contenu dépasse */
+ 
 }
 
 /* Styles pour l'élément avec l'ID "fallback" */
-#fallback {
-  font-weight: bold; /* Texte en gras */
+.fallback {
+  /*font-weight: bold; Texte en gras */
   font-size: 1.15rem; /* Taille de police de 1.15rem */
   margin: 0; /* Supprime les marges */
-  text-align: center; /* Centre le texte */
+  text-align: left; /* Centre le texte */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  
+}
+
+.bigger {
+  font-size: 1.5rem;
 }
 
 /* Styles pour les écrans d'une largeur minimale de 768px */
@@ -41,6 +54,6 @@ main {
 
   #fallback {
     font-size: 1.5rem; /* Augmente la taille de police à 1.5rem */
-    text-align: left; /* Aligne le texte à gauche */
+   /* text-align: left;  Aligne le texte à gauche */
   }
 }

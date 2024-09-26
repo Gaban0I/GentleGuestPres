@@ -1,0 +1,28 @@
+<section id="trade-argument">
+    <header>
+        <div>
+            <h2>{{trade_name}} </h2>
+            <p>{{trade_teasing}}</p>
+        </div>
+        <menu>
+            <button>
+                Ajouter des arguments
+            </button>
+        </menu>
+    </header>
+
+    <ul>
+        @for (argument of selectedTradeArguments; track argument.List_argument_id){
+        <li>
+            <!-- lecture de l'envent "complete" -->
+            <app-argument [argument]="argument" (complete)="onCompleteArgument($event)"></app-argument>
+        </li>
+
+        }
+
+
+
+
+    </ul>
+
+</section>

@@ -1,29 +1,4 @@
-/*#globalPageTitle {
-  
-  position: sticky;
-  top: 0px;
-  font-size: 25px;
-  width: 100%;
-  padding: 20px;
-  background-color: white;
-}
- 
-  #globalPageTitle {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-    font-size: 25px;
-    width: 100%;
-    padding: 20px;
-    background-color: white;
-  }
-  
-  #globalPageTitle img {
-    width: 30%;
-    height: auto;
-    margin-right: 10px; /* Ajout d'une marge à droite pour espacer le texte du logo */
- 
+
 
     #globalContainer {
       display: flex; /* Utilise un affichage flexible */
@@ -37,7 +12,7 @@
     }
     
     #globalContainer img {
-      width: 50%; /* Définit la largeur de l'image à 50% de son conteneur */
+      width: 25%; /* Définit la largeur de l'image à 50% de son conteneur */
       height: auto; /* Maintient le ratio d'aspect de l'image */
       margin-bottom: 10px; /* Ajoute une marge de 10px en bas de l'image */
     }

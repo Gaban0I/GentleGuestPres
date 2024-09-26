@@ -16,6 +16,11 @@ body {
   font-family: "Caviar Dreams", sans-serif;
   font-weight: 500;
 }
+.GG_Bold {
+  font-family: "Caviar Dreams", sans-serif;
+  font-weight: bold;
+}
+
 
 .GGbandeau {
   position: sticky;
