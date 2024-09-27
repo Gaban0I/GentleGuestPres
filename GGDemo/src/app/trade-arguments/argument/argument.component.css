@@ -7,6 +7,11 @@ article {
   h2 {
     margin: 0;
   }
+
+  p{
+    font-size: 0.9rem;
+    line-height: 1;
+  }
   
   time {
     color: #3c2c50;

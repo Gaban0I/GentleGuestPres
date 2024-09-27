@@ -20,7 +20,21 @@ export const List_trade = [
 {
     trade_id: 't04',
     trade_name: 'Hotel',
-    trade_teasing: 'Chers hôteliers ligne1 \n jeronime ligne2' ,
+    trade_teasing: 'Chers hôteliers,<br><br>' +
+    'Dans un monde où les attentes des voyageurs évoluent rapidement, nous comprenons les défis que vous rencontrez ' +
+    "pour rester à la pointe de l'hospitalité. <br> <br>"+
+    'Vous cherchez <br><br>' +
+    ' <ul>' +
+    '<li> à étendre votre réseau,</li>'+
+    "<li> à réduire les temps d'attente à l'acceuil,</li>"+
+    '<li> à offrir une expérience client unique pour vous demarquer,</li>'+
+    '<li> à ce que votre marque accompagne vos visiteurs tout au long de leur séjour,</li>'+
+    '<li> à attirer les millénials,</li>' +
+    '<li> à valoriser vos conseils, </li>'+
+    '<li> à maintenir une relation post-voyage</li>'+
+    '<li> à être recommandé,</li>'+
+    '<li> à mettre en avant les attraits de votre région.</li>'+
+    '</ul><br>Ces besoins sont essentiels pour votre établissement. <b class="GG_Bold">GentleGuest</b> vous aide à enrichir vos services, à améliorer leur visibilité et leur communication, renforçant ainsi votre position unique sur le marché.',
     trade_avatar: 'persona_500X500_Hotel.png',   
 },
 {

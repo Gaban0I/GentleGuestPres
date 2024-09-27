@@ -61,6 +61,13 @@ body {
   margin-bottom: 20px;
 }
 
+li {
+  list-style: none;
+  padding-left: 10px;
+  line-height: 1.5; /* Ajuste cette valeur selon le besoin (1.5 = 150% de la taille de la police) */
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 695px) {
   .GGbandeau {
     top: 100px;
